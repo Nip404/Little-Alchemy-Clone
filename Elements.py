@@ -6,7 +6,7 @@ class Element:
         self.name = name
 
         try:
-            self.image = pygame.image.load("%s.jpg" % self.name)
+            self.image = pygame.image.load("Images/%s.jpg" % self.name)
         except:
             try:
                 self.image = pygame.image.load("fire.jpg")
