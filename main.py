@@ -81,8 +81,8 @@ def endscreen(time,high):
         high = time
         
     head = big.render("Congradulations!",True,(0,0,0))
-    head2 = big.render("You completed the game in %s secs!" % time,True,(0,0,0))
-    head3 = big.render("Highscore: %s" % high,True,(0,0,0))
+    head2 = big.render("You completed the game in %s seconds!" % time,True,(0,0,0))
+    head3 = big.render("Highscore: %s seconds" % high,True,(0,0,0))
     foot = med2.render("Click to play again",True,(0,0,0))
 
     while True:
